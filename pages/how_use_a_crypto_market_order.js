@@ -33,7 +33,6 @@ export default function how_use_a_crypto_market_order() {
                     Depending on the USDC you own, and the bitcoin price fluctuates by a certain amount, placing an order to buy a hundred percent means the system will compare your order to the best sell order currently active on the market. It will ascertain the quantity of bitcoin you can purchase. You will use the set price to set your order; however, if the price rises, you will not be able to buy the bitcoin at a fee already charged. When this happens, your order will not go through.
                 </p>
                 <h3 className='text-xl pt-5 pb-5 '>
-
                     Sell market orders - Based on the amount
                 </h3>
 
@@ -44,7 +43,6 @@ export default function how_use_a_crypto_market_order() {
                     Placing a market order
                 </h3>
                 <p>
-
                     Select the cryptocurrency or fiat pair you want in your web browser or cryptocurrency app.
                     Please enter the size of your order or adjust it using the slider.
                     Select the cell or buy option and tap the market key.
