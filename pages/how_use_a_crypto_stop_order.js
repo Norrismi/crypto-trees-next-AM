@@ -66,6 +66,10 @@ export default function CryptoMarketOrders() {
         <p className='pb-20'>
           Market investments in assets including cryptocurrencies are subject to risks. Therefore, traders should ensure that they are making such investments with their extra money that they can keep in the holding for a substantially large amount of time. Most investments in cryptocurrencies provide good returns when they are made for a longer period and when the investment remains stable. Stop loss orders of cryptocurrencies can minimize the losses and damages even for beginners and those who are new to cryptocurrency investment. However, waste of money and assets can still occur. Therefore, analysis and research by the traders are important to ensure that the investment can provide good profit.
         </p>
+
+        <p className='mt-40 pb-8 text-sm'>
+                    Disclaimer: This information is for entertainment purposes only and should not be taken as financial advice, please do your own research and arrive at your own conclusions.
+                </p>
       </div>
 
     </div>

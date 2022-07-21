@@ -27,6 +27,10 @@ export default function how_use_a_crypto_limit_order() {
                 <p className='mt-5 mb-5'>
                     The most significant advantage of the limit order is that you are able to name the price you want for your crypto; if the crypto price is able to reach your named price, the order for it will most likely be filled. However, it is essential to note that you are not guaranteed to trade the crypto. If it fails to reach the limit price, the trade will not execute. Taking note of the demand and supply to fill the order can also affect the trade even if your crypto hits your limit. Depending upon the exchange, through limited orders, your order could execute up to a time frame of 3 months. With that amount of time, your crypto can increase or decrease in value dramatically, which can give it a price that&apos;s different during the trade compared to what you initially could have gotten.
                 </p>
+
+                <p className='mt-40 pb-8 text-sm'>
+                    Disclaimer: This information is for entertainment purposes only and should not be taken as financial advice, please do your own research and arrive at your own conclusions.
+                </p>
             </div>
         </div>
     )

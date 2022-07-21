@@ -75,6 +75,10 @@ export default function how_use_a_crypto_market_order() {
                 <p className='pb-20'>
                     Crypto orders in the cryptocurrency market include market order, limit order, and the stop order limit. Market orders establish the selling and purchasing cost in crypto; limit orders determine price limits and stop demands from developing entry and exit points for your order. Depending on your preference and what you want, you can pick the order that best suits you at the moment.
                 </p>
+
+                <p className='mt-40 pb-8 text-sm'>
+                    Disclaimer: This information is for entertainment purposes only and should not be taken as financial advice, please do your own research and arrive at your own conclusions.
+                </p>
             </div>
 
         </div>

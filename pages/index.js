@@ -34,8 +34,14 @@ export default function Home() {
 
 
         <li>
-          <Link href="how_use_a_crypto_market_order">
+          <Link href="/how_use_a_crypto_market_order">
             <a target="_blank" rel="noopener noreferrer" className='hover:text-indigo-500'>How use a crypto market order</a>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/how_to_transfer_crypto_from_a_centralized_exchange_to_a_metamask_wallet">
+            <a target="_blank" rel="noopener noreferrer" className='hover:text-indigo-500'>How to transfer crypto from a Centralized Exchange to a Metamask Wallet</a>
           </Link>
         </li>
       </div>

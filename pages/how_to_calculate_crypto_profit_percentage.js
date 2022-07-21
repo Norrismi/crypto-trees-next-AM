@@ -66,6 +66,10 @@ export default function CryptoProfitPercentage() {
                     Being so sure about cryptocurrency is challenging since you frequently don&apos;t understand how the cryptocurrency will react. For instance, you might trade and then regret doing so since the price keeps rising. However, it&apos;s tough to predict because cryptocurrency values may often increase or decrease independent of prior market activity.
 
                 </p>
+
+                <p className='mt-40 pb-8 text-sm'>
+                    Disclaimer: This information is for entertainment purposes only and should not be taken as financial advice, please do your own research and arrive at your own conclusions.
+                </p>
             </div>
 
         </div>
