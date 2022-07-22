@@ -13,6 +13,11 @@ export default function Home() {
 
 
       <div className=''>
+        <li>
+          <Link href="/how_to_transfer_crypto_from_a_centralized_exchange_to_a_metamask_wallet">
+            <a target="_blank" rel="noopener noreferrer" className='hover:text-indigo-500'>How to transfer crypto from a Centralized Exchange to a Metamask Wallet</a>
+          </Link>
+        </li>
 
         <li>
           <Link href="/how_to_calculate_crypto_profit_percentage">
@@ -39,11 +44,6 @@ export default function Home() {
           </Link>
         </li>
 
-        <li>
-          <Link href="/how_to_transfer_crypto_from_a_centralized_exchange_to_a_metamask_wallet">
-            <a target="_blank" rel="noopener noreferrer" className='hover:text-indigo-500'>How to transfer crypto from a Centralized Exchange to a Metamask Wallet</a>
-          </Link>
-        </li>
       </div>
 
 

@@ -1,4 +1,9 @@
 import React from 'react'
+import Link from 'next/link'
+import { Button } from 'semantic-ui-react';
+
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function How_to_Transfer_Crypto_from_a_Centralized_Exchange_to_a_Metamask_Wallet() {
     return (
@@ -14,6 +19,14 @@ export default function How_to_Transfer_Crypto_from_a_Centralized_Exchange_to_a_
 
                 <p>Regarding the transfer process, one can use several central exchange sites or applications to deposit the given cryptocurrency in the Metamask wallet. The following is the general guide on how to transfer crypto into a Metamask wallet:</p>
 
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-orange-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
+
+
                 <h2 className='text-2xl pt-5 pb-5'>Creating a Central Exchange Account</h2>
 
                 <p>One must first register for a central exchange app account on the internet or by installing the app before it becomes possible to transfer funds to the Metamask wallet. The process involves choosing a suitable central exchange site such as Coinbase which we will use as the study case. Then, go to the application&apos;s official site and open it. One is required to fill in details such as their official names, passwords, and email. Be prepared to offer proof because most major exchange sites require verifying your Identity for security purposes. Read the privacy statements and the user agreement. Once finished, click the sign-up or create account option and register using a password and email address. The application will send a verification email.</p>
@@ -26,6 +39,15 @@ export default function How_to_Transfer_Crypto_from_a_Centralized_Exchange_to_a_
 
                 <p>Open the central exchange account and then log in. Then, go to the Metamask account, where one should choose the buying and selling option represented by 3 dots. Logging in to the 2 accounts will make it easier for one to move quickly since crypto transfer requires using those accounts. One has the option of accessing these accounts directly on their site or installing them on devices such as mobile phones and laptops.</p>
 
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-red-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
+
+
+
                 <h2 className='text-2xl pt-5 pb-5'>Copying the Metamask Address </h2>
 
                 <p>One should copy the Metamask address by selecting the wallet option in the Metamask account and then type the password. Select the desired cryptocurrency asset by clicking or tapping on it. Be cautious when transferring the token because each cryptocurrency has a unique address. For instance, when one wants to choose bitcoin as the cryptocurrency of use, ensure the address copied is a bitcoin address. One risks losing money if one receives cryptocurrencies from the incorrect wallet address. After selecting the type of cryptocurrency to use, click press and choose copy.</p>
@@ -36,11 +58,19 @@ export default function How_to_Transfer_Crypto_from_a_Centralized_Exchange_to_a_
 
                 </h2><p>Once one has located the kind of cryptocurrency to send, click withdraw. It is crucial to remember that different central exchange sites offer different permits for withdrawal every day. For instance, Coinbase has a withdrawal limit of about $25,000 daily, while other sites such as ftx permit $2,000 daily for withdrawal. Therefore, by requesting the level 2 Identification for verification, users can withdraw a sufficient amount to fund their Metamask accounts. Additionally, it is advisable not to transfer everything at once. Expert traders advise transferring around 10 percent of the intended amount first and, if it goes smoothly to the Metamask account, then transfer the rest.</p>
 
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-yellow-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
                 <h2 className='text-2xl pt-5 pb-5'>Input the Verification Code and Check Crypto Transfer</h2>
 
                 <p>Most of the central exchange sites require one to verify their identity for them to access their tokens. In sites such as crypto, a 2FA check-up take when one clicks the confirm option. One is also required to download, install and use the google authenticator to display the 2FA code. Enter the 6-digit 2FA code in the central exchange account to finalize the transfer. Check the token balance in the Metamask account by checking the site&apos;s wallet after a short while. Typically, it will take 5 to 10 minutes for the transfer to be done, depending on the type of central exchange site used.</p>
 
                 <p>Additionally, if many users transfer the tokens simultaneously, the process will be slow down and can take up to a few hours. Remember that the central exchange sites charge a small fee for the transaction services offered on their cryptocurrency networks. The charges fluctuate depending on several variables, which include the payment method chosen, the amount of transaction made, and market circumstances such as volatility and liquidity. It is often computed using estimations of the network fees.</p>
+
+
 
                 <h2 className='text-2xl pt-5 pb-5'>Conclusion</h2>
 

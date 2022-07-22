@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Link from 'next/link'
+import { Button } from 'semantic-ui-react';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export default function CryptoProfitPercentage() {
     return (
         <div className='bg-slate-300 min-h-screen '>
@@ -28,6 +33,13 @@ export default function CryptoProfitPercentage() {
                     Once you have gathered your account activity and the price of your crypto coins, you may begin figuring out your gains and losses.
                 </p>
 
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-orange-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
+
                 <h2 className='text-2xl pt-10 pb-5 '> There are several ways to calculate your crypto profit percentage; here are some of them:</h2>
 
                 <h3 className='text-xl pt-5 pb-5'> 1. Using Spreadsheets</h3>
@@ -50,6 +62,13 @@ export default function CryptoProfitPercentage() {
 
                     Using a calculator will give a more accurate result and will help you simplify your tasks.
                 </p>
+
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-yellow-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
 
                 <h3 className='text-xl pt-5 pb-5'>3. Doing it Manually</h3>
                 <p className='pb-20'>

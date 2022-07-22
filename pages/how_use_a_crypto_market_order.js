@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Link from 'next/link'
+import { Button } from 'semantic-ui-react';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export default function how_use_a_crypto_market_order() {
     return (
         <div className='bg-slate-300 min-h-screen '>
@@ -20,6 +25,14 @@ export default function how_use_a_crypto_market_order() {
                 <p>
                     A market order is a directive to purchase or sell an asset immediately. These market orders are specific contracts that clarify the cryptocurrency you want to acquire, its amount, and the cost. Alternatively, you can list what you want to sell and the terms you are willing to do so. When someone places an order, the order is filled at the current market price as soon as possible.
                 </p>
+
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-orange-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
+
                 <h2 className='text-2xl pt-5 pb-5 '>
                     How to use a crypto market order
                 </h2>
@@ -49,6 +62,13 @@ export default function how_use_a_crypto_market_order() {
                     Verify your order
                 </p>
 
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-yellow-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
+
                 <h2 className='text-2xl pt-12 pb-5 '>
 
                     Other crypto currency orders
@@ -68,6 +88,13 @@ export default function how_use_a_crypto_market_order() {
                 <p>
                     It is a stop order variant that tracks the direction of the price of the cryptocurrency you&apos;re interested in and modifies your order. If the cost of the cryptocurrency changes, it automatically repositions the position you have locked in.
                 </p>
+
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-red-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
                 <h2 className='text-2xl pt-5 pb-5 '>
 
                     Conclusion

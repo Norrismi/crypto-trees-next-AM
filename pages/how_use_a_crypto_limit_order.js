@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Link from 'next/link'
+import { Button } from 'semantic-ui-react';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export default function how_use_a_crypto_limit_order() {
     return (
         <div className='bg-slate-300 min-h-screen '>
@@ -11,12 +16,19 @@ export default function how_use_a_crypto_limit_order() {
                 <p>
                     In this article, we will be focusing on what limit orders are and and when you should consider using limit orders. Regardless if you are purchasing or selling, it is crucial to understand and learn what limit orders are to fully utilize them and find what&apos;s fitting for you to use depending on the scenario.
                 </p>
+
                 <h3 className='text-2xl mt-5 mb-5'>
                     What Exactly Is A Limit Order?
                 </h3>
                 <p>
                     The following crypto order type we will be tackling is the limit order which is a type of order that purchases or sells a crypto that has a restriction when it comes to the limit price to be paid or to be received, having a maximum price, and minimum price restriction. Through a limited order, the price will only be either at its specified limit or at its maximum. Unlike market order, there is no assurance of execution in the limit order. It is best to use this type of crypto order type when it is the best time to buy at a lower price or sell at a higher price than its current price.
                 </p>
+                <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-orange-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
                 <h3 className='text-2xl mt-5 mb-5'>
                     How Do You Use Limit Order?
                 </h3>

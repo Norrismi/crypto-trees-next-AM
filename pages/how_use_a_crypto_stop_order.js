@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Link from 'next/link'
+import { Button } from 'semantic-ui-react';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export default function CryptoMarketOrders() {
   return (
     <div className='bg-slate-300 min-h-screen'>
@@ -23,6 +28,13 @@ export default function CryptoMarketOrders() {
           Stop limit order: it is a trade order for selling or buying a cryptocurrency once your stock price (a specific price said by the trader) has been reached. This transaction will be triggered only when the crypto reaches the set stock price. At this point, it will be converted into a limit order.
         </li>
 
+        <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-orange-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
+
         <h2 className='text-2xl mt-5 mb-5 '>Using a Stop Order or a Stop Limit Order for a Cryptocurrency Trade</h2>
 
         <p>
@@ -34,6 +46,13 @@ export default function CryptoMarketOrders() {
         <p>
           A &quot;full stop loss order&quot; will liquidate all of the crypto assets held by a trader when it is triggered. It can be useful in the more stable cryptocurrency market. If a certain and unexpected price drop and fluctuation occur in the market, the traders will not incur huge losses if they use the stop loss orders. However, if the crypto currency&apos;s price surges back and its price goes upwards later, the trader will not get the potential profit. Traders should set the stop loss limit after research and watching the trends to ensure that they are not losing out in the trade. Traders should consider the rewards and the risks associated with the full stop loss order carefully before placing one.
         </p>
+
+        <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-yellow-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
         <h2 className='text-2xl mt-5 mb-5 '>
           Partial Stop Loss Order
         </h2>
@@ -46,6 +65,13 @@ export default function CryptoMarketOrders() {
         <p>
           The stop loss price value of the crypto is adjusted following the price fluctuations of the crypto, in a &quot;trailing stop loss&quot; order. The trader will have to set a trailing distance for the price. It is the difference between the current price of the crypto and the specific stop-loss price value that is set by the trader. The stop loss price value will also rise if the price of the crypto increases. However, if the price of the crypto falls due to market fluctuations, it will not trigger a change in the value of the stop loss price. The stop loss order will be automatically placed and the crypto will be sold if the stop loss value is reached by the crypto.
         </p>
+
+        <div className='mt-10 mb-10'>
+                    <Link href="https://www.digistore24.com/redir/325658/norrismi/" passHref={true}>
+                        <Button target="_blank" rel="noopener noreferrer" className='bg-red-500 hover:bg-blue-500 drop-shadow-2xl p-4 rounded text-white'>
+                            <FontAwesomeIcon icon={faGraduationCap} /> Learn More About Cryptocurrency</Button>
+                    </Link>
+                </div>
         <h2 className='text-2xl mt-5 mb-5 '>
           Understanding the risk
         </h2>
